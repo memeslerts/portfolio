@@ -89,19 +89,19 @@ export default function About() {
           <div className="space-y-6 mb-12">
             <Card>
               <CardContent className="p-6">
-                <h3 className="text-xl font-medium">Position Title</h3>
-                <p className="text-muted-foreground mb-2">Company Name • 2020 - Present</p>
-                <p>Description of your responsibilities and achievements.</p>
+                <h3 className="text-xl font-medium">Research Assistant</h3>
+                <p className="text-muted-foreground mb-2">UMass Computer Vision Lab + DARoS Lab • 2024 - Present</p>
+                <p>Studying learned vision-based control strategies for balance and complex terrain navigation of robots.</p>
               </CardContent>
             </Card>
-            <Card>
+{/*             <Card>
               <CardContent className="p-6">
                 <h3 className="text-xl font-medium">Previous Position</h3>
                 <p className="text-muted-foreground mb-2">Previous Company • 2018 - 2020</p>
                 <p>Description of your responsibilities and achievements.</p>
               </CardContent>
             </Card>
-          </div>
+          </div> */}
           
           <h2 className="text-2xl font-bold mb-6">Education</h2>
           <Card>
