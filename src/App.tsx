@@ -29,12 +29,12 @@ const App = () => (
             <Navbar />
             <main className="flex-grow">
               <Routes>
-                <Route path="/" element={<About />} />
-                <Route path="/projects" element={<Projects />} />
-                <Route path="/research" element={<Research />} />
-                <Route path="/blog" element={<Blog />} />
-                <Route path="/blog/:postId" element={<BlogPost />} />
-                <Route path="/contact" element={<Contact />} />
+                <Route path="/#/" element={<About />} />
+                <Route path="/#/projects" element={<Projects />} />
+                <Route path="/#/research" element={<Research />} />
+                <Route path="/#/blog" element={<Blog />} />
+                <Route path="/#/blog/:postId" element={<BlogPost />} />
+                <Route path="/#/contact" element={<Contact />} />
                 <Route path="*" element={<NotFound />} />
               </Routes>
             </main>
